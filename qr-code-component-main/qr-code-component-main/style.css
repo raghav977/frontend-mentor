@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.container{
+    background-color: #D5E1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    border: 2px solid #FFFFFF;
+    /* border-radius: 14px; */
+}
+.qr-container{
+    /* border: 2px solid red; */
+    max-width: 375px;
+    padding:2rem;
+    height: 500px;
+    background-color: #FFFFFF;
+    border:2px solid #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.image{
+    /* border: 2px solid green; */
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* margin: auto; */
+}
+.qr-container img{
+    width: 100%;
+}
+.text{
+    margin-top: 2rem;
+    /* border:2px solid red; */
+    width:400px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    /* padding:1.1rem; */
+
+}
+.small-text{
+    background-color: #FBFBFE;
+    /* border: 2px solid green; */
+    width:300px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    /* padding: 1.3rem; */
+}

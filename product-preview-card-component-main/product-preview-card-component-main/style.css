@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child-div{
+    display: flex;
+    border:2px solid black;
+    /* align-items: center; */
+    justify-content: space-around;
+    width:50vw;
+    /* padding:2rem; */
+}
+.child-div .div-1{
+    border: 2px solid green;
+    width:400px;
+    height:80vh;
+}
+.child-div .div-1 img{
+    width:100%;
+    height:100%;
+}
+.div-2 .perfume p{
+    letter-spacing: 17px;
+}
+.heading{
+    border:2px solid red;
+    
+}
