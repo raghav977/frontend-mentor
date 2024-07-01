@@ -42,6 +42,7 @@
     padding:0.2rem;
     color:hsl(300, 69%, 71%);
     transition:all 0.4s ease;
+    outline: none;
 }
 .social-links{
     /* border: 2px solid red; */
@@ -69,4 +70,40 @@
 .btn button:hover, i:hover{
     background-color:orangered;
     color:white;
+}
+@media only screen and (max-width:1500px){
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:100vw;
+        /* border: 2px solid red; */
+        height:100vh;
+    }
+    .social-links{
+        /* border: 2px solid red; */
+        /* margin-bottom: 2rem; */
+        /* text-align: centerd; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding:0.2rem; */
+        margin-right: 220px;
+        /* border:2px solid red; */
+        
+
+    }
+    .social-links i{
+        font-size: 15px;
+        text-align: center;
+        padding:1rem;
+        text-align: left;
+        /* border: 2px solid red; */
+        /* margin-left: 20px; */
+    }
 }
